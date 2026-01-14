@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+
+	<!--/ /---- Put your name in the title of the page ----/ /-->
+	<title>PES1UG23AM213 - Portfolio</title>
+	
+	<!--/ /-------- Normalize CSS --------/ /-->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+	
+	<!--/ /-------- Google Fonts --------/ /-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+	
+	<!--/ /-------- Font Awesome --------/ /-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	<!--/ /-------- Your Styles --------/ /-->
+	<link href="styles.css" rel="stylesheet">
+
+	<!--/ /---Put a short description for your site below. 20 words or less---/ /-->
+	<meta description="Portfolio website showcasing projects and skills - SRN: PES1UG23AM213">
+
+	<!--/ /-------- Needed For Mobile Devices --------/ /-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+	
+    <!-- ------------------------------------------------------
+    The site is designed to be mobile first. The wrapper elements
+	are in place for when you get to desktop size to contain the 
+	content.
+    ------------------------------------------------------- -->
+    
+	<header class="primary">
+        <div class="wrapper">
+            
+			<div class="logo-container">
+				<h1>PES1UG23AM213<br>Portfolio</h1>
+
+				<!-- ------------------------------------------------------
+				Note that the image of the logo is linked to the home page.
+				------------------------------------------------------- -->
+				<a href="index.html"><img src="https://dummyimage.com/175/c4c4c4/fff&text=logo" alt="logo image" id="logo"></a>
+			</div>
+            
+            
+			<!-- ------------------------------------------------------
+            The navigation here is linking to the sections further down
+            the page.
+            ------------------------------------------------------- -->
+			<nav id="mainnav">
+            	<ul>
+                	<li><a href="#work">Work</a></li>
+                    <li><a href="#about-contact">About</a></li>
+                    <li><a href="#about-contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+        
+    </header>
+    
+    <!-- ------------------------------------------------------
+    This is the work section, which has two parts: the featured
+	section and the projects section.
+    ------------------------------------------------------- -->
+    
+    <section id="work">
+   		<div class="wrapper">
+        	<h2>Check Out My Best Projects</h2>
+        	<section class="featured">
+                <article>
+                	<!-- ------------------------------------------------------
+                    Link the image below to the detail page for this project.
+                    Use the page.html file to make that page. Also link the 
+                    anchor tag in the paragraph below to the same page.
+                    ------------------------------------------------------- -->
+                	<a href="#"><img src="https://mczdcscoizqsmwjdrlsa.supabase.co/storage/v1/object/public/imgs2/cat.jpeg" alt="Featured Project"></a>
+                </article>
+                
+                <article>
+                	<h3>Cloud Storage Integration Project</h3>
+                    <h4>Challenge Statement</h4>
+                    <p>Developed a portfolio website with integrated cloud storage using Supabase. The challenge was to create a scalable solution for storing and serving images efficiently while maintaining fast load times and ensuring proper access control. Implemented storage bucket creation, image upload functionality, and public URL generation for seamless image delivery.</p> <p><a href="#">Find out how I solved this problem</a></p> 
+                </article>
+            </section> <!-- end row -->
+            
+            
+            <!-- ------------------------------------------------------
+            The projects section is for additional projects. I put four in
+			here, but it could be more, or less. You just have to pay
+			attention to how they wrap, and how many you want per row.
+            
+            Note that each image should be linked to the page with more
+            detailed information about that project. You can use a copy of
+            page.html to create those pages.
+            ------------------------------------------------------- -->
+            
+            <section class="projects">
+            
+            	<article>
+                	<h3>Web Development Portfolio</h3>
+                	<a href="#"><img src="https://dummyimage.com/340x200/4a90e2/fff&text=Portfolio+Website" alt="Portfolio Website"></a>
+                    <p><strong>Role:</strong> Full Stack Developer</p>
+                    <p><strong>Description:</strong> Responsive portfolio website built with HTML5, CSS3, and modern web technologies.</p>
+                </article>
+                
+                <article>
+                	<h3>Supabase Integration</h3>
+                	<a href="#"><img src="https://dummyimage.com/340x200/2c3e50/fff&text=Supabase+Cloud" alt="Supabase Integration"></a>
+                    <p><strong>Role:</strong> Backend Developer</p>
+                    <p><strong>Description:</strong> Integrated Supabase cloud storage for efficient image management and delivery.</p>
+                </article>
+                
+                <article>
+                	<h3>Responsive Design</h3>
+                	<a href="#"><img src="https://dummyimage.com/340x200/4a90e2/fff&text=Mobile+First" alt="Responsive Design"></a>
+                    <p><strong>Role:</strong> Frontend Developer</p>
+                    <p><strong>Description:</strong> Mobile-first responsive design ensuring optimal user experience across all devices.</p>
+                </article>
+				
+				<article>
+                	<h3>Cloud Computing</h3>
+                	<a href="#"><img src="https://dummyimage.com/340x200/2c3e50/fff&text=Cloud+Storage" alt="Cloud Computing"></a>
+                    <p><strong>Role:</strong> Cloud Engineer</p>
+                    <p><strong>Description:</strong> Implemented cloud storage solutions using Supabase for scalable image hosting.</p>
+                </article>
+            
+            </section><!-- end row -->
+            
+        </div> <!-- end work wrapper -->
+    </section>
+    
+    
+    <!-- ------------------------------------------------------
+    This is the about and contact section. The links in the main
+    navigation link to this section. 
+    ------------------------------------------------------- -->
+    
+    <section id="about-contact" class="secondary">
+   		<div class="wrapper">
+        	
+			<div class="profile-photo">
+            	<img src="https://mczdcscoizqsmwjdrlsa.supabase.co/storage/v1/object/public/imgs2/cat.jpeg" alt="Profile Photo">
+            </div>
+			
+            <article>
+				<h2>About Me</h2>
+				<p>Student at PES University with SRN: PES1UG23AM213. Passionate about web development, cloud computing, and creating innovative solutions. This portfolio showcases my projects and technical skills in web technologies and cloud services.</p>
+				<h3>Skills</h3>
+				<p>I am particularly good at HTML, CSS, JavaScript, and Python development. I am currently learning cloud computing with Supabase and I'm very excited about building scalable web applications and integrating cloud storage solutions.</p>
+			</article> 
+                
+			<article>
+				<h2>Contact Me!</h2>
+				<p>I am currently looking for opportunities to work on web development projects and cloud computing solutions. Please feel free to contact me through the contact information below.</p>
+
+				<!-- ------------------------------------------------------
+				Be sure to encode your email address at this site, so you 
+				don't get spam. http://wbwip.com/wbw/emailencoder.html
+				------------------------------------------------------- -->
+
+				<p><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:pes1ug23am213@pesu.pes.edu">pes1ug23am213@pesu.pes.edu</a><br>
+				<i class="fa fa-id-card" aria-hidden="true"></i> SRN: PES1UG23AM213</p>
+
+				<!-- ------------------------------------------------------
+				You can see here that I have included font-awesome. It is used
+				to create the icons above and below. You can go to the font-awesome
+				website to see the available icons and swap some out.
+				------------------------------------------------------- -->
+
+				<p class="social">
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-linkedin"></i></a> 
+					<a href="#"><i class="fab fa-twitter-square"></i></a>
+				</p>
+			</article>
+                   
+        </div>
+    </section>
+    
+    
+    <!-- ------------------------------------------------------
+    The footer section is not doing much on this page. Add more
+    content if necessary.
+    ------------------------------------------------------- -->
+    <footer class="primary">
+    	<div class="wrapper">
+        	<p class="centered">&copy; 2024 PES1UG23AM213 - All rights reserved</p>
+        </div>
+    </footer>
+
+</body>
+</html>
